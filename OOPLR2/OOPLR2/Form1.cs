@@ -22,13 +22,13 @@ namespace OOPLR2
             Application.Exit();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        void button2_Click(object sender, EventArgs e)
         {
             int count, fail_mail;
             double weight = 1;
             count = Convert.ToInt32(Interaction.InputBox("Введіть кількість листів", "Кількість листів", "4"));
             fail_mail = Convert.ToInt32(Interaction.InputBox("Введіть кількіcть не доставлених листів", "Кількість не доставлених листів", "1"));
-            weight = Convert.ToDouble(Interaction.InputBox("Введіть вагу листів", "Вага листів", "0.2"));
+            weight = Convert.ToDouble(Interaction.InputBox("Введіть вагу листів", "Вага листів", "0,2"));
             mail m2 = new mail(count, fail_mail, weight);
             m2.Info();
         }
@@ -65,3 +65,5 @@ namespace OOPLR2
 
     }
 }
+
+   
