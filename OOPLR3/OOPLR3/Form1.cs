@@ -123,7 +123,7 @@ namespace OOPLR3
 
         public email()
         {
-            komy = "Ilya";
+            komy = "Ilya@gmail.com";
             img = 15;
             symbol = 55;
         }
