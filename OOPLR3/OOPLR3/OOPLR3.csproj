@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3DBC2917-8C4E-4EDB-8AE5-49EB14FBCA1F}</ProjectGuid>
+    <ProjectGuid>{49F53D98-54F1-4BD4-B5D4-6E21E01560D1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>OOPLR2</RootNamespace>
-    <AssemblyName>OOPLR2</AssemblyName>
+    <RootNamespace>OOPLR3</RootNamespace>
+    <AssemblyName>OOPLR3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />

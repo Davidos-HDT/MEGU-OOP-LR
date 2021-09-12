@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("OOPLR2")]
+[assembly: AssemblyTitle("OOPLR3")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("OOPLR2")]
+[assembly: AssemblyProduct("OOPLR3")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("3dbc2917-8c4e-4edb-8ae5-49eb14fbca1f")]
+[assembly: Guid("49f53d98-54f1-4bd4-b5d4-6e21e01560d1")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
