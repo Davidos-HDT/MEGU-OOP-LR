@@ -6,8 +6,10 @@ namespace OOPLR3
 {
     public partial class Form1 : Form
     {
-        mail sho;
-        email now;
+        pmail pmail_zm;
+        email email_zm;
+        mail mail_zm;
+        public static int count = 0;
         public Form1()
         {
             InitializeComponent();
@@ -20,16 +22,16 @@ namespace OOPLR3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            sho = new mail();
-            now = new email();
+            mail_zm = new mail();
             MessageBox.Show("Лист по замовчуванню створено", "Лист", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            mail_zm.info();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (sho != null)
+            if (pmail_zm != null)
             {
-                sho.Info();
+                pmail_zm.info();
             }
             else
                 MessageBox.Show("Поштовий лист ще не створено.\nСкористайтеся кнопками вище", "Лист", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -37,10 +39,15 @@ namespace OOPLR3
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (sho != null)
+            if (pmail_zm != null)
             {
-                int plus = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів", "Увага", "7"));
-                sho.symbol += plus;
+                int change = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів для поштового листа", "Зміна кількості символів", "7"));
+                pmail_zm.symbol = change;
+            }
+            if (email_zm != null)
+            {
+                int change = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів для електроного листа", "Зміна кількості символів", "7"));
+                email_zm.symbol = change;
             }
             else
                 MessageBox.Show("Лист ще не створено.\nСкористайтеся кнопками вище", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -49,51 +56,74 @@ namespace OOPLR3
         private void button5_Click(object sender, EventArgs e)
         {
             string a = Interaction.InputBox("Введіть кому цей лист", "Лист", "Ilya");
-            double b = Convert.ToDouble(Interaction.InputBox("Введіть ширину листа", "Увага", "9"));
-            double c = Convert.ToDouble(Interaction.InputBox("Введіть довжину листа", "Увага", "6"));
-            int d = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів", "Увага", "150"));
-            sho = new mail(a, b, c, d);
-            sho.Info();
+            double b = Convert.ToDouble(Interaction.InputBox("Введіть ширину листа", "Лист", "9"));
+            double c = Convert.ToDouble(Interaction.InputBox("Введіть довжину листа", "Лист", "6"));
+            int d = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів", "Лист", "150"));
+            pmail_zm = new pmail(a, b, c, d);
+            pmail_zm.info();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (sho != null)
+            if (pmail_zm != null)
             {
-                int v = Convert.ToInt32(Interaction.InputBox("Введіть кількість використаних символів", "Лист", "70"));
-                sho.symbol -= v;
+                int minus = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів щоб добавити для поштового листа", "Дадавання символів до листа", "7"));
+                pmail_zm.symbol += minus;
+            }
+            if (email_zm != null)
+            {
+                int minus = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів щоб добавити для електроного листа", "Дадавання символів до листа", "7"));
+                email_zm.symbol += minus;
             }
             else
-                MessageBox.Show("Автомобіль ще не створено.\nСкористайтеся кнопками вище", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Лист ще не створено.\nСкористайтеся кнопками вище", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            string a = Interaction.InputBox("Введіть кому цей лист", "Лист", "Ilya@gmail.com");
-            int b = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів", "Лист", "150"));
-            int c = Convert.ToInt32(Interaction.InputBox("Введіть кількість картинок", "Лист", "2"));
-            now = new email(a, 0, 0, b, c);
-            now.Info();
+            string a = Interaction.InputBox("Введіть кому цей лист", "Електроний лист", "Ilya@gmail.com");
+            int b = Convert.ToInt32(Interaction.InputBox("Введіть кількість символів", "Електроний лист", "150"));
+            int c = Convert.ToInt32(Interaction.InputBox("Введіть кількість картинок", "Електроний лист", "2"));
+            email_zm = new email(a, 0, 0, b, c);
+            email_zm.info();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            if (now != null)
+            if (email_zm != null)
             {
-                now.Info();
+                email_zm.info();
             }
             else
                 MessageBox.Show("Електронний лист ще не створено.\nСкористайтеся кнопками вище", "Лист", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Поточна кількість об'єктів " + count.ToString(), "Увага", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            pmail_zm = new pmail();
+            MessageBox.Show("Лист по замовчуванню створено", "Поштовий лист", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            pmail_zm.info();
+        }
+
+        public void button11_Click(object sender, System.EventArgs e)
+        {
+            email_zm = new email();
+            MessageBox.Show("Лист по замовчуванню створено", "Електронный лист", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            email_zm.info();
         }
     }
 
     public class mail
     {
         public string komy;
-        public double width;
-        public double height;
-        public int symbol;
+        public double width, height;
+        public int symbol, nomer;
 
         public mail()
         {
@@ -101,6 +131,15 @@ namespace OOPLR3
             width = 10;
             height = 15;
             symbol = 55;
+
+            Form1.count++;
+            nomer = Form1.count;
+        }
+
+        ~mail()
+        {
+            MessageBox.Show("Лист № " + nomer.ToString() + " видалено.", "Диструктор", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Form1.count--;
         }
 
         public mail(string komy, double width, double height, int symbol) : this()
@@ -111,11 +150,27 @@ namespace OOPLR3
             this.symbol = symbol;
         }
 
-        public void Info()
+        public virtual void info()
         {
-            MessageBox.Show("Кому: " + komy + "\nШирина: " + width.ToString() + " см\nДовжина: " + height.ToString() + "см\nКількість символів: " + symbol.ToString(), "Лист", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Кому: " + komy + "\nШирина: " + width.ToString() + " см\nДовжина: " + height.ToString() + "см\nКількість символів: " + symbol.ToString(), "Лист №" + nomer.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
+
+    public class pmail : mail
+    {
+        public pmail()
+        {}
+
+        public pmail(string komy, double width, double height, int symbol) : base(komy, width, height, symbol)
+        {
+        }
+
+        public override void info()
+        {
+            MessageBox.Show("Кому: " + komy + "\nШирина: " + width.ToString() + " см\nДовжина: " + height.ToString() + "см\nКількість символів: " + symbol.ToString(), "Поштовий лист №" + nomer.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+    }
+
 
     public class email : mail
     {
@@ -125,16 +180,15 @@ namespace OOPLR3
         {
             komy = "Ilya@gmail.com";
             img = 15;
-            symbol = 55;
         }
         public email(string komy, double width, double height, int symbol, int img) : base(komy, width, height, symbol)
         {
             this.img = img;
         }
 
-        public void Info()
+        public override void info()
         {
-            MessageBox.Show("Кому: " + komy + "\nКількість символів: " + symbol.ToString() + "\nКількіть картинок: " + img.ToString(), "Електроний лист", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Кому: " + komy + "\nКількість символів: " + symbol.ToString() + "\nКількіть картинок: " + img.ToString(), "Електроний лист №" + nomer.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
