@@ -1,0 +1,42 @@
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\bin\Debug\OOPLR3.exe.config
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\bin\Debug\OOPLR3.exe
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\bin\Debug\OOPLR3.pdb
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\obj\Debug\OOPLR3.csproj.AssemblyReference.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\obj\Debug\OOPLR3.Properties.Resources.resources
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\obj\Debug\OOPLR3.csproj.GenerateResource.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\obj\Debug\OOPLR3.csproj.CoreCompileInputs.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\obj\Debug\OOPLR3.exe
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\obj\Debug\OOPLR3.pdb
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR3\OOPLR3\obj\Debug\OOPLR3.Form1.resources
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\bin\Debug\OOPLR3.exe.config
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\bin\Debug\OOPLR3.exe
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\bin\Debug\OOPLR3.pdb
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\obj\Debug\OOPLR3.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\obj\Debug\OOPLR3.Form1.resources
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\obj\Debug\OOPLR3.Properties.Resources.resources
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\obj\Debug\OOPLR3.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\obj\Debug\OOPLR3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\obj\Debug\OOPLR3.exe
+C:\Users\Admin\Desktop\Lox\lr 2\OOPLR3\OOPLR3\obj\Debug\OOPLR3.pdb
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\bin\Debug\OOPLR3.exe.config
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\bin\Debug\OOPLR3.exe
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\bin\Debug\OOPLR3.pdb
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\obj\Debug\OOPLR3.csproj.AssemblyReference.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\obj\Debug\OOPLR3.csproj.SuggestedBindingRedirects.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\obj\Debug\OOPLR3.Form1.resources
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\obj\Debug\OOPLR3.Properties.Resources.resources
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\obj\Debug\OOPLR3.csproj.GenerateResource.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\obj\Debug\OOPLR3.csproj.CoreCompileInputs.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\obj\Debug\OOPLR3.exe
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPLR3\obj\Debug\OOPLR3.pdb
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\bin\Debug\OOPLR3.exe.config
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\bin\Debug\OOPLR3.exe
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\bin\Debug\OOPLR3.pdb
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\obj\Debug\OOPLR3.csproj.AssemblyReference.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\obj\Debug\OOPLR3.csproj.SuggestedBindingRedirects.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\obj\Debug\OOPLR3.Form1.resources
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\obj\Debug\OOPLR3.Properties.Resources.resources
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\obj\Debug\OOPLR3.csproj.GenerateResource.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\obj\Debug\OOPLR3.csproj.CoreCompileInputs.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\obj\Debug\OOPLR3.exe
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR4\OOPL3\obj\Debug\OOPLR3.pdb
