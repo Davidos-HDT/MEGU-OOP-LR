@@ -1,0 +1,10 @@
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\bin\Debug\OOPLR7.exe.config
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\bin\Debug\OOPLR7.exe
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\bin\Debug\OOPLR7.pdb
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\obj\Debug\OOPLR7.csproj.SuggestedBindingRedirects.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\obj\Debug\OOPLR7.Form1.resources
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\obj\Debug\OOPLR7.Properties.Resources.resources
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\obj\Debug\OOPLR7.csproj.GenerateResource.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\obj\Debug\OOPLR7.csproj.CoreCompileInputs.cache
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\obj\Debug\OOPLR7.exe
+H:\trash\MEGU\Основи програмування\2 курс\OOPLR7\OOOLR7\obj\Debug\OOPLR7.pdb
